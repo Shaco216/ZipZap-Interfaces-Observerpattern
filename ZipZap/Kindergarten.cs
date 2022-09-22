@@ -27,7 +27,7 @@ namespace ZipZap
             foreach (Observer item in benachrichtigbare)
             {
                 item.Observe();
-            }
+            }//
         }
     }
 }
